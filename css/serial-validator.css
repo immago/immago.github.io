@@ -1,0 +1,78 @@
+* {
+	box-sizing: border-box;
+}
+
+.title-container h1 {
+	font-weight: 700;
+	font-style: normal;
+	font-size: 35px;
+	margin: 0;
+}
+
+.title-container .serial {
+	font-weight: 600;
+	font-style: normal;
+	font-size: 12px;
+	color: rgba(0, 0, 0, .3);
+}
+
+.title-container .description {
+	padding: 16px 0px;
+}
+
+.validation-message {
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+.serial-link {
+	display: inline-block;
+	margin-top: 10px;
+	padding: 8px 12px;
+	background-color: #007BFF;
+	color: #fff;
+	border-radius: 4px;
+	text-decoration: none;
+}
+
+.serial-link:hover {
+	background-color: #0056b3;
+}
+
+
+/* Content wrapper */
+.content {
+	font-family: "Roboto Condensed", serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+	max-width: 1240px;
+	margin: auto;
+	padding: 16px 0px;
+}
+
+/* Serial validator styles */
+#serial-validator {
+	padding: 0;
+	max-width: 400px;
+	margin: 0;
+}
+
+#serial-validator input {
+	padding: 8px;
+	width: 100%;
+	font-size: 16px;
+}
+
+#serial-validator .result {
+	margin-top: 10px;
+	font-weight: 600;
+}
+
+#product-name {
+	margin-top: 25px;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 19px;
+}

@@ -1,0 +1,31 @@
+
+.footer {
+	text-align: center;
+	margin: auto;
+	overflow: hidden;
+	font-family: "Roboto Condensed", serif;
+	font-optical-sizing: auto;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 16px;
+	text-transform: uppercase;
+	padding-top: 70px;
+	padding-bottom: 20px;
+}
+
+.footer .social {
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+
+.footer .social a {
+	color: black;
+	font-size: 25px;
+}
+
+.footer .copyright {
+	color: gray;
+	font-size: 12px;
+	font-weight: 300;
+	text-transform: none;
+}
