@@ -53,3 +53,53 @@ body {
     transform: rotate( 0.0deg)
   }
 }
+
+/* Info bottom message */
+.info-message {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 700px;
+  width: calc(100% - 40px);
+  background: #fff;
+  color: #333;
+  box-shadow: 0 4px 22px rgba(0, 0, 0, 0.40);
+  border-radius: 12px;
+  padding: 16px 20px;
+  z-index: 9999;
+  font-family: "Roboto", sans-serif;
+  display: none;
+}
+
+.info-message-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.info-message-text {
+  font-size: 14px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  line-height: 1.4;
+}
+
+.info-message-button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.info-message-button:hover {
+  background-color: #45a047;
+}
+
