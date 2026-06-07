@@ -1,0 +1,9 @@
+/* Hide the PixelForge button */
+#btns > div:has(button[title="PixelForge"]) {
+    display: none !important;
+}
+
+/* Hide the File editor button */
+#btns > div:has(button[title="File editor"]) {
+    display: none !important;
+}
